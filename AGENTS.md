@@ -40,8 +40,12 @@ Before adding photos to the `images/` folder or embedding them in the page, **in
 
 Blur, crop, or replace any image that reveals private details before committing.
 
+## Cache-busting
+
+Hostinger's CDN caches `css/styles.css` and `js/script.js` aggressively. Whenever either file changes, bump the `?v=` value on its `<link>`/`<script>` tag in `index.html` (e.g. `?v=20261024b` → `?v=20261101a`) so visitors get the new version.
+
 ## Deployment
 
-Site deploys to Hostinger shared hosting. Upload files via FTP or Hostinger File Manager. The `.htaccess` handles HTTPS enforcement, www-to-non-www canonicalization, gzip, caching, and security headers.
+Site deploys to Hostinger shared hosting automatically: every push to `main` on github.com/tendertokensstudio/tendertokens-site is deployed to `public_html` via Hostinger's GIT integration. The `.htaccess` handles HTTPS enforcement, www-to-non-www canonicalization, gzip, caching, and security headers.
 
 **Live URL:** `https://tendertokensstudio.com/`
