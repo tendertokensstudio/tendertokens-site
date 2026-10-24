@@ -49,7 +49,7 @@
     { file: "token-17.jpg", cap: "the long way to nairobi", alt: "Collage spread of Lufthansa boarding passes, a restaurant receipt, green packaging scraps, and a Kenya eTA page with an elephant at sunset" },
     { file: "token-18.jpg", cap: "baobab, morning", alt: "Marker drawing of a baobab trunk, thin trees, the sea, and a table and chairs on sand" },
     { file: "token-19.jpg", cap: "get inspired, create away", alt: "Pink hatched spread with teal and red blob shapes and the words 'get inspired, create away'" },
-    { file: "token-20.jpg", cap: "leopard inspired", alt: "Two pages of colorful four-petal blob flowers drawn in marker" },
+    { file: "token-20.jpg", cap: "leopard inspired", alt: "Two pages of colorful four-petal blobs drawn in marker, inspired by leopard spots" },
     { file: "token-21.jpg", cap: "hello, hello, hello", alt: "Rows of puffy orange, yellow, and pink marker letters spelling hello" },
     { file: "token-22.jpg", cap: "i ♥ mallorca (and sardines)", alt: "Collage spread of I-heart-Mallorca napkins, a Sa Pedra napkin, sardine-print paper, and black-and-kraft polka-dot paper" },
     { file: "token-23.jpg", cap: "mallorca, by coaster", alt: "Collage spread of hotel and restaurant coasters, Font Major water labels, and a Coca-Cola label from Mallorca" },
