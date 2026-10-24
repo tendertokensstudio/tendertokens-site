@@ -543,3 +543,31 @@ body.lb-open { overflow: hidden; }
   .reveal { opacity: 1 !important; transform: none !important; transition: none; }
   .btn, .tile, .nav-links a, .follow-card, .social-pill { transition: none !important; }
 }
+
+/* ---- Takes a Walk (photography): quieter than the sketchbook — no tape, no wobble ---- */
+.walk-series {
+  margin: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 360px) minmax(0, 1fr);
+  gap: 40px;
+  align-items: center;
+}
+.walk-frame {
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--ink);
+  box-shadow: var(--shadow-card);
+  aspect-ratio: 9 / 16;
+}
+.walk-video { width: 100%; height: 100%; object-fit: cover; display: block; }
+.walk-title { font-family: var(--display); font-weight: 400; font-size: 2rem; margin: 0 0 10px; }
+.walk-line { font-size: 1.15rem; max-width: 26em; margin: 0 0 14px; }
+.walk-place { font-family: var(--label); font-size: 1.1rem; color: var(--ink-soft); margin: 0 0 18px; }
+.walk-link { color: var(--persimmon); font-weight: 600; text-decoration: none; }
+.walk-link:hover { text-decoration: underline; }
+@media (max-width: 760px) {
+  .walk-series { grid-template-columns: 1fr; gap: 22px; }
+  .walk-frame { max-width: 340px; width: 100%; margin: 0 auto; }
+  .walk-cap { text-align: center; }
+  .walk-line { margin-left: auto; margin-right: auto; }
+}

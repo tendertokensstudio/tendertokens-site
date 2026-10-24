@@ -329,3 +329,14 @@
     }, { passive: true });
   }
 })();
+
+/* Liquid Metal reel: hold still for people who prefer reduced motion */
+(function () {
+  var v = document.getElementById("liquidMetal");
+  if (!v) return;
+  if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    v.removeAttribute("autoplay");
+    v.pause();
+    v.controls = true;
+  }
+})();

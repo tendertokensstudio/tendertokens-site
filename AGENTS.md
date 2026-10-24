@@ -10,7 +10,7 @@ A static, single-page marketing site for Tender Tokens Studio. No frameworks, no
 index.html          — the entire site (one page)
 css/styles.css      — all styles; uses CSS custom properties and Google Fonts
 js/script.js        — gallery generation, prompt shuffle, confetti, scroll reveal
-images/             — handmade token photos (JPEG)
+images/             — handmade token photos (JPEG), thumbs/, and the Liquid Metal reel (MP4 + poster)
 .htaccess           — Apache config: HTTPS redirect, caching, security headers
 robots.txt          — crawler rules
 sitemap.xml         — single-page sitemap
