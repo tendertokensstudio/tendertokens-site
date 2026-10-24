@@ -52,7 +52,7 @@
     { file: "token-20.jpg", cap: "leopard inspired", alt: "Two pages of colorful four-petal blobs drawn in marker, inspired by leopard spots" },
     { file: "token-21.jpg", cap: "hello, hello, hello", alt: "Rows of puffy orange, yellow, and pink marker letters spelling hello" },
     { file: "token-22.jpg", cap: "i ♥ mallorca (and sardines)", alt: "Collage spread of I-heart-Mallorca napkins, a Sa Pedra napkin, sardine-print paper, and black-and-kraft polka-dot paper" },
-    { file: "token-23.jpg", cap: "mallorca, by coaster", alt: "Collage spread of hotel and restaurant coasters, Font Major water labels, and a Coca-Cola label from Mallorca" },
+    { file: "token-23.jpg", cap: "spain, by coaster", alt: "Collage spread of hotel and restaurant coasters, Font Major water labels, and a Coca-Cola label from Mallorca" },
     { file: "token-24.jpg", cap: "sóller", alt: "Spread with a bold Sóller tram poster, a Ses Oliveres card, a Valldemossa parking ticket, water labels, and a Mandarina Socks tag" },
     { file: "token-25.jpg", cap: "schlok's, bagels + lox", alt: "Collage of Schlok's napkins with red grid, black fish illustrations, and a bagel-fish logo" },
     { file: "token-26.jpg", cap: "berkeley · sf · oakland", alt: "Collage spread with a green half-circle cityscape, Bay Area city name strips, red grid napkins, and the name Christine lettered on green" },
