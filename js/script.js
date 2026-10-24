@@ -49,16 +49,16 @@
     { file: "token-17.jpg", cap: "the long way to nairobi", alt: "Collage spread of Lufthansa boarding passes, a restaurant receipt, green packaging scraps, and a Kenya eTA page with an elephant at sunset" },
     { file: "token-18.jpg", cap: "baobab, morning", alt: "Marker drawing of a baobab trunk, thin trees, the sea, and a table and chairs on sand" },
     { file: "token-19.jpg", cap: "get inspired, create away", alt: "Pink hatched spread with teal and red blob shapes and the words 'get inspired, create away'" },
-    { file: "token-20.jpg", cap: "blob bouquets", alt: "Two pages of colorful four-petal blob flowers drawn in marker" },
+    { file: "token-20.jpg", cap: "leopard inspired", alt: "Two pages of colorful four-petal blob flowers drawn in marker" },
     { file: "token-21.jpg", cap: "hello, hello, hello", alt: "Rows of puffy orange, yellow, and pink marker letters spelling hello" },
     { file: "token-22.jpg", cap: "i ♥ mallorca (and sardines)", alt: "Collage spread of I-heart-Mallorca napkins, a Sa Pedra napkin, sardine-print paper, and black-and-kraft polka-dot paper" },
     { file: "token-23.jpg", cap: "mallorca, by coaster", alt: "Collage spread of hotel and restaurant coasters, Font Major water labels, and a Coca-Cola label from Mallorca" },
     { file: "token-24.jpg", cap: "sóller", alt: "Spread with a bold Sóller tram poster, a Ses Oliveres card, a Valldemossa parking ticket, water labels, and a Mandarina Socks tag" },
     { file: "token-25.jpg", cap: "schlok's, bagels + lox", alt: "Collage of Schlok's napkins with red grid, black fish illustrations, and a bagel-fish logo" },
     { file: "token-26.jpg", cap: "berkeley · sf · oakland", alt: "Collage spread with a green half-circle cityscape, Bay Area city name strips, red grid napkins, and the name Christine lettered on green" },
-    { file: "token-27.jpg", cap: "hi! (world cup coasters)", alt: "Spread with red 'hi!' lettering on orange texture beside cut-up World Cup beer coasters" },
-    { file: "token-28.jpg", cap: "love is love, plus gems", alt: "Spiral sketchbook collage of rainbow beer-can labels, gemstone stickers, and gold confetti dots" },
-    { file: "token-29.jpg", cap: "ranger of the lost art", alt: "A small white tin collaged with vintage park ranger sticker scraps and a printed note about national park window stickers" },
+    { file: "token-27.jpg", cap: "world cup coasters", alt: "Spread with red 'hi!' lettering on orange texture beside cut-up World Cup beer coasters" },
+    { file: "token-28.jpg", cap: "sticker playbook", alt: "Spiral sketchbook collage of rainbow beer-can labels, gemstone stickers, and gold confetti dots" },
+    { file: "token-29.jpg", cap: "sticker scraps collage", alt: "A small white tin collaged with vintage park ranger sticker scraps and a printed note about national park window stickers" },
     { file: "token-30.jpg", cap: "the residents, production bible v1.0", alt: "Hand-lettered cover page in lilac and coral: 'The Residents Production Bible v1.0, Develop. Complt. July 19, 2026'" },
     { file: "token-01.jpg", cap: "blue marker mood", alt: "Sketchbook spread of calligraphy practice in blues and purples" },
     { file: "token-02.jpg", cap: "warm marker practice", alt: "Sketchbook spread of calligraphy practice in pinks, oranges, and yellows" },
@@ -69,7 +69,7 @@
     { file: "token-07.jpg", cap: "palm springs mood", alt: "Bubble letters spelling Palm Springs on a green background" },
     { file: "token-08.jpg", cap: "happy hands", alt: "Bubble lettering 'happy hands' over warm striped marker" },
     { file: "token-09.jpg", cap: "hi, baby!", alt: "Notes and a pink-and-green 'hi, baby!' lettered on a page" },
-    { file: "token-10.jpg", cap: "kept because cute", alt: "A page of 'calligraphy' lettered in fading greens" }
+    { file: "token-10.jpg", cap: "calligraphy practice", alt: "A page of 'calligraphy' lettered in fading greens" }
   ];
 
   var countEl = document.getElementById("tokenCount");
