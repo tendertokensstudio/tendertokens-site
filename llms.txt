@@ -1,16 +1,19 @@
 # Tender Tokens Studio
 
-Tender Tokens Studio is a small handmade studio that turns everyday paper ephemera — receipts, labels, wrappers, tickets, and notes — into preserved keepsakes called "tender tokens." The work is personal, tactile, and rooted in the idea that small paper scraps carry big feelings.
+Tender Tokens Studio is the sketchbook practice of San Francisco artist Christine Pelaez. It's hand lettering, collage, and marker drawings made from the paper scraps of everyday life and travel: receipts, labels, napkins, tickets, boarding passes, and notes. Every page is signed "cmp" and dated down to the minute. The work is personal, tactile, and rooted in the idea that small paper scraps carry big feelings.
 
-## What we do
+## What's here
 
-We create handmade, one-of-a-kind paper keepsakes from the bits of everyday life people almost throw away. Customers send us their scraps — or inquire about a custom token — and we compose, layer, tape, and treasure them into something worth keeping.
+A one-page portfolio of finished sketchbook pages from San Francisco, Kenya, Mallorca, and elsewhere, with links to where new work is posted.
 
 ## Contact & links
 
 - **Website:** https://tendertokensstudio.com/
-- **Inquiries:** cmpelaez@me.com
-- **Instagram:** @tendertokensstudio
+- **Instagram:** https://www.instagram.com/tendertokensstudio (@tendertokensstudio)
+- **TikTok:** https://www.tiktok.com/@tendertokensstudio (@tendertokensstudio)
+- **Pinterest:** https://www.pinterest.com/tendertokensstudio (@tendertokensstudio)
+- **Hashtag:** #TenderTokensStudio
+- **Email:** cmpelaez@me.com
 
 ## Tone
 
@@ -18,4 +21,4 @@ Warm, handmade, quietly whimsical. Not corporate. Not minimal. Feels like a note
 
 ## Technical note
 
-This is a static HTML/CSS/JS site with no backend, no e-commerce, and no user accounts. Inquiry is by email only.
+This is a static HTML/CSS/JS site with no backend, no e-commerce, and no user accounts.

@@ -23,6 +23,8 @@ llms.txt            — AI/LLM discovery file
 - **Do not add analytics or tracking scripts** unless the owner explicitly requests them.
 - **Do not add a backend, database, or server-side logic** unless explicitly requested.
 - **Do not change the contact email.** The inquiry email is `cmpelaez@me.com` and must be preserved in all `mailto:` links.
+- **Keep the social links.** The handle is `@tendertokensstudio` on Instagram, TikTok, and Pinterest (`instagram.com/tendertokensstudio`, `tiktok.com/@tendertokensstudio`, `pinterest.com/tendertokensstudio`). They appear in the hero, the follow section, the footer, and the JSON-LD `sameAs`. The brand hashtag is `#TenderTokensStudio`.
+- **Adding gallery pieces:** see the `TOKENS` list at the top of the collection section in `js/script.js`. Each piece needs `images/token-NN.jpg` (~1600px long edge) and `images/thumbs/token-NN.jpg` (~640px).
 - **Preserve the brand voice.** Tender Tokens Studio is warm, handmade, and quietly whimsical — not corporate, not minimal, not generic. Copy should feel like it was written with a good pen on nice paper.
 - **Do not alter the visual design** without an explicit design request.
 - **Keep the CSS custom-property palette** (--oat, --cream, --persimmon, etc.) intact. Colors are intentional brand decisions.
