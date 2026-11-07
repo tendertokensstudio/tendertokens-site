@@ -12,6 +12,7 @@ A one-page portfolio of finished sketchbook pages from San Francisco, Kenya, Mal
 - **Instagram:** https://www.instagram.com/tendertokensstudio (@tendertokensstudio)
 - **TikTok:** https://www.tiktok.com/@tendertokensstudio (@tendertokensstudio)
 - **Pinterest:** https://www.pinterest.com/tendertokensstudio (@tendertokensstudio)
+- **Etsy shop:** https://www.etsy.com/shop/TenderTokensStudio (digital downloads)
 - **Hashtag:** #TenderTokensStudio
 - **Email:** cmpelaez@me.com
 
@@ -21,4 +22,4 @@ Warm, handmade, quietly whimsical. Not corporate. Not minimal. Feels like a note
 
 ## Technical note
 
-This is a static HTML/CSS/JS site with no backend, no e-commerce, and no user accounts.
+This is a static HTML/CSS/JS site with no backend and no user accounts. The shop lives on Etsy; the site only links to it.

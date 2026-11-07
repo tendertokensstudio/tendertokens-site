@@ -321,9 +321,11 @@ section { position: relative; }
 .social-pill.ig { color: var(--persimmon); }
 .social-pill.tt { color: var(--plum); }
 .social-pill.pin { color: var(--moss); }
+.social-pill.etsy { color: var(--marker-blue); }
 .social-row li:nth-child(1) .social-pill { transform: rotate(-2deg); }
 .social-row li:nth-child(2) .social-pill { transform: rotate(1.5deg); }
 .social-row li:nth-child(3) .social-pill { transform: rotate(-1deg); }
+.social-row li:nth-child(4) .social-pill { transform: rotate(2deg); }
 .social-row .social-pill:hover { transform: translateY(-2px) rotate(0deg); background: #fff; }
 
 /* ============================================================
@@ -460,6 +462,36 @@ body.lb-open { overflow: hidden; }
 .prompt-card .shuffle { margin: 20px auto 0; display: flex; }
 
 /* ============================================================
+   Little shop (light receipt card)
+   ============================================================ */
+.shop-wrap { display: grid; place-items: center; }
+.shop-card {
+  position: relative; display: flex; flex-direction: column; align-items: center; gap: 12px;
+  width: min(480px, 100%); padding: 34px 30px 44px; text-align: center;
+  background: var(--cream); color: var(--ink); text-decoration: none;
+  border-radius: 6px; box-shadow: var(--shadow-card);
+  clip-path: polygon(0 0,100% 0,100% 96%,95% 100%,90% 96%,85% 100%,80% 96%,75% 100%,70% 96%,65% 100%,60% 96%,55% 100%,50% 96%,45% 100%,40% 96%,35% 100%,30% 96%,25% 100%,20% 96%,15% 100%,10% 96%,5% 100%,0 96%);
+  transform: rotate(1deg);
+  transition: transform .2s cubic-bezier(.2,.8,.2,1);
+}
+.shop-card:hover { transform: rotate(0deg) translateY(-4px); }
+.shop-card:focus-visible { outline: 3px solid var(--marker-blue); outline-offset: 4px; }
+.shop-card .doodle-tape {
+  position: absolute; top: 0; left: 50%; width: 90px; height: 24px; margin-left: -45px;
+  background: var(--tape-blue); mix-blend-mode: multiply; transform: rotate(-4deg);
+}
+.shop-head {
+  font-family: var(--label); letter-spacing: 2px; font-size: 1.05rem; color: var(--persimmon);
+  border-bottom: 2px dashed var(--receipt); padding-bottom: 12px; width: 100%;
+}
+.shop-line { font-family: var(--hand); font-size: clamp(1.7rem, 4vw, 2.2rem); line-height: 1.15; }
+.shop-meta {
+  font-family: var(--label); font-size: .95rem; color: var(--ink-soft);
+  border-top: 2px dashed var(--receipt); padding-top: 12px; width: 100%;
+}
+.shop-btn { margin-top: 6px; }
+
+/* ============================================================
    Final inquiry
    ============================================================ */
 .inquiry-card {
@@ -553,7 +585,7 @@ body.lb-open { overflow: hidden; }
   html { scroll-behavior: auto; }
   .anim-drift, .anim-wiggle { animation: none !important; }
   .reveal { opacity: 1 !important; transform: none !important; transition: none; }
-  .btn, .tile, .nav-links a, .follow-card, .social-pill { transition: none !important; }
+  .btn, .tile, .nav-links a, .follow-card, .shop-card, .social-pill { transition: none !important; }
 }
 
 /* ---- Takes a Walk (photography): quieter than the sketchbook — no tape, no wobble ---- */
