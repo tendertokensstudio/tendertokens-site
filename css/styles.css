@@ -460,6 +460,26 @@ body.lb-open { overflow: hidden; }
   padding-top: 14px;
 }
 .prompt-card .shuffle { margin: 20px auto 0; display: flex; }
+.prompt-wrap { gap: 34px; }
+.deck-tag {
+  position: relative; display: flex; flex-direction: column; align-items: center; gap: 6px;
+  width: min(420px, 100%); padding: 24px 26px 22px; text-align: center;
+  background: var(--cream); color: var(--ink); text-decoration: none;
+  border: 2px dashed var(--apricot); border-radius: 14px; box-shadow: var(--shadow-soft);
+  transform: rotate(1.4deg);
+  transition: transform .2s cubic-bezier(.2,.8,.2,1), background-color .15s ease;
+}
+.deck-tag:hover { transform: rotate(0deg) translateY(-4px); background: #fff; }
+.deck-tag:focus-visible { outline: 3px solid var(--marker-blue); outline-offset: 4px; }
+.deck-tag .doodle-tape {
+  position: absolute; top: -12px; left: 50%; width: 80px; height: 24px; margin-left: -40px;
+  background: var(--tape-apricot); mix-blend-mode: multiply; transform: rotate(-5deg);
+}
+.deck-kicker { font-family: var(--hand); font-size: 1.5rem; line-height: 1; color: var(--persimmon); }
+.deck-title { font-family: var(--display); font-size: 1.6rem; line-height: 1.05; }
+.deck-sub { font-family: var(--body); font-size: .95rem; line-height: 1.4; color: var(--ink-soft); }
+.deck-cats { font-family: var(--label); font-size: 1.05rem; letter-spacing: 1px; color: var(--moss); }
+.deck-cta { font-family: var(--label); font-size: 1.1rem; color: var(--marker-blue); margin-top: 4px; }
 
 /* ============================================================
    Little shop (light receipt card)
@@ -585,7 +605,7 @@ body.lb-open { overflow: hidden; }
   html { scroll-behavior: auto; }
   .anim-drift, .anim-wiggle { animation: none !important; }
   .reveal { opacity: 1 !important; transform: none !important; transition: none; }
-  .btn, .tile, .nav-links a, .follow-card, .shop-card, .social-pill { transition: none !important; }
+  .btn, .tile, .nav-links a, .follow-card, .shop-card, .deck-tag, .social-pill { transition: none !important; }
 }
 
 /* ---- Takes a Walk (photography): quieter than the sketchbook — no tape, no wobble ---- */
