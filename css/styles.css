@@ -512,6 +512,30 @@ body.lb-open { overflow: hidden; }
 .shop-btn { margin-top: 6px; }
 
 /* ============================================================
+   The first book
+   ============================================================ */
+.book {
+  display: grid; grid-template-columns: minmax(200px, 300px) 1fr; gap: 56px;
+  align-items: center; max-width: 920px; margin: 0 auto;
+}
+.book-cover {
+  position: relative; margin: 0; background: #fff; padding: 10px; border-radius: 4px;
+  box-shadow: var(--shadow-card); transform: rotate(-2deg);
+}
+.book-cover img { display: block; width: 100%; height: auto; border-radius: 2px; }
+.book-cover .doodle-tape {
+  position: absolute; top: -14px; left: 50%; width: 92px; height: 28px; margin-left: -46px; z-index: 1;
+  background: var(--tape); mix-blend-mode: multiply; box-shadow: var(--shadow-soft); transform: rotate(4deg);
+}
+.book-subtitle { font-family: var(--hand); font-size: 1.5rem; line-height: 1.2; color: var(--persimmon); margin: 10px 0 0; }
+.book-blurb { font-size: 1.1rem; color: var(--ink-soft); margin: 16px 0 24px; max-width: 34em; }
+@media (max-width: 760px) {
+  .book { grid-template-columns: 1fr; gap: 34px; text-align: center; }
+  .book-cover { width: min(260px, 80%); margin: 0 auto; }
+  .book-blurb { margin-left: auto; margin-right: auto; }
+}
+
+/* ============================================================
    Final inquiry
    ============================================================ */
 .inquiry-card {
