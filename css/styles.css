@@ -130,6 +130,7 @@ a { color: inherit; }
 .nav-links a {
   font-family: var(--label); font-size: 1.18rem; text-decoration: none;
   color: var(--ink-soft); transition: color .15s ease, transform .15s ease;
+  white-space: nowrap;
 }
 .nav-links a:hover { color: var(--persimmon); transform: translateY(-1px) rotate(-2deg); }
 .nav-cta { font-family: var(--body) !important; }
@@ -512,6 +513,35 @@ body.lb-open { overflow: hidden; }
 .shop-btn { margin-top: 6px; }
 
 /* ============================================================
+   Meet me
+   ============================================================ */
+.meet {
+  display: grid; grid-template-columns: minmax(280px, 1fr) 1.15fr; gap: 64px;
+  align-items: center; max-width: 1040px; margin: 0 auto;
+}
+.meet-photos { position: relative; padding-bottom: 150px; }
+.polaroid {
+  position: relative; margin: 0; background: #fff; padding: 12px 12px 14px;
+  border-radius: 3px; box-shadow: var(--shadow-card);
+}
+.polaroid img { display: block; width: 100%; height: auto; border-radius: 2px; }
+.polaroid figcaption { font-family: var(--hand); font-size: 1.5rem; color: var(--ink-soft); text-align: center; padding-top: 8px; }
+.polaroid .tape { top: -14px; left: 50%; margin-left: -48px; transform: rotate(-4deg); z-index: 1; }
+.meet-main { transform: rotate(-2.5deg); }
+.meet-small {
+  position: absolute; right: -18px; bottom: 0; width: 40%; padding-bottom: 12px;
+  transform: rotate(4deg); z-index: 2;
+}
+.meet-small .tape { transform: rotate(6deg); }
+.meet-main figcaption { text-align: left; padding-left: 10px; }
+.meet-copy p { font-size: 1.08rem; line-height: 1.6; color: var(--ink-soft); margin: 0 0 14px; max-width: 36em; }
+.meet-copy .section-title { margin-bottom: 20px; }
+@media (max-width: 860px) {
+  .meet { grid-template-columns: 1fr; gap: 40px; }
+  .meet-photos { width: min(440px, 100%); margin: 0 auto; }
+}
+
+/* ============================================================
    The first book
    ============================================================ */
 .book {
@@ -595,6 +625,20 @@ body.lb-open { overflow: hidden; }
 /* ============================================================
    Responsive
    ============================================================ */
+/* seven links: hand the nav to the menu button before it runs out of room */
+@media (max-width: 1180px) {
+  .nav-links { display: none; }
+  .nav-burger {
+    display: inline-flex; background: var(--cream); border: 2px dashed var(--apricot);
+    border-radius: 12px; padding: 8px 12px; font-family: var(--label); font-size: 1.1rem;
+    cursor: pointer; color: var(--ink);
+  }
+  .nav-links.open {
+    display: flex; position: absolute; top: 100%; right: 12px; flex-direction: column;
+    background: var(--cream); padding: 14px 20px; border-radius: 14px; gap: 12px;
+    box-shadow: var(--shadow-card); border: 1px solid rgba(70,58,51,.1);
+  }
+}
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; gap: 30px; }
   .collage { min-height: 420px; order: -1; }
